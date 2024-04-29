@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+    /* This hides horizontal scrollbar */
+    width: 100%;
+    /* Ensures the body takes the full width of the viewport */
+}
+
+
+
+.navbar {
+    display: flex;
+    height: 50px;
+    position: relative;
+    background-color: #009e5f;
+    justify-content: space-between;
+
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+}
+
+.ul-items {
+    /* left: 10px; */
+    position: relative;
+    left: 900px;
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+
+    scroll-behavior: smooth;
+}
+
+li a:hover {
+    color: black;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div {
+    display: flex;
+}
+
+.main-div .left-div h1 {
+    color: #009e5f;
+    text-align: center;
+}
+
+.left-div img {
+    margin-top: 110px;
+}
+
+.explore-now {
+    margin: 14px 60px 14px 60px;
+    padding: 10px 10px 10px 10px;
+
+    text-align: center;
+    cursor: pointer;
+
+    /* box-sizing: border-box; */
+
+    border-width: 5px;
+    border-color: #009e5f;
+    border-style: solid;
+
+}
+
+.explore-now h2 {
+    color: #009e5f;
+    font-size: medium;
+    font-weight: 900;
+
+    transition: all .2s linear;
+}
+
+.play-btn {
+    position: relative;
+    bottom: 550px;
+    left: 480px;
+}
+
+.banner-wrapper {
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+
+    right: 210px;
+}
+
+.banner-wrapper .left-div {
+    position: relative;
+    bottom: 600px;
+    right: 120px;
+}
+
+.banner-wrapper .left-div h1 {
+    position: relative;
+    font-family: inherit;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    line-height: 8rem;
+
+}
+
+.banner-wrapper .left-div p {
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.banner-wrapper .left-div .banner-btn a {
+    text-decoration: none;
+}
+
+.banner-wrapper .left-div .banner-btn h2 {
+    color: #009e5f;
+    text-align: center;
+    background-color: white;
+
+    cursor: pointer;
+
+    margin: 30px 550px 30px 550px;
+    padding: 20px 20px 20px 20px;
+}
+
+.overlay {
+    background-image: url(../Media/module_cocktail.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    position: relative;
+    bottom: 600px;
+
+    height: 552px;
+
+}
+
+.overlay h2 {
+    position: relative;
+    top: 40%;
+
+    font-size: 1.6rem;
+    font-family: inherit;
+
+    color: white;
+    background-color: #fe5887;
+    text-align: center;
+
+    margin: 80px 480px 80px 480px;
+    ;
+    padding: 30px 30px 30px 30px;
+}
+
+.overlay a {
+    text-decoration: none;
+}
+
+.overlay-2 {
+    background-image: url(../Media/module_cooking.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    position: relative;
+    bottom: 700px;
+    height: 550px;
+}
+
+.overlay-2 h2 {
+    position: relative;
+    top: 40%;
+    font-size: 1.6rem;
+    font-family: inherit;
+
+    color: white;
+    background-color: #6ba13f;
+    text-align: center;
+
+    margin: 80px 480px 80px 480px;
+    padding: 30px 30px 40px 30px;
+}
+
+.overlay-2 a {
+    text-decoration: none;
+}
+
+.overlay-3 {
+    background-image: url(../Media/module_ice-creaml.jpg);
+    background-attachment: fixed;
+
+    position: relative;
+    bottom: 780px;
+    height: 540px;
+}
+
+.overlay-3 a {
+    text-decoration: none;
+}
+
+.overlay-3 h2 {
+    position: relative;
+    top: 40%;
+
+    font-size: 1.6rem;
+    font-family: inherit;
+
+    color: white;
+    background-color: #c064ac;
+    text-align: center;
+
+    margin: 80px 480px 80px 480px;
+    padding: 30px 30px 40px 30px;
+}
+
+.product .main-div .left-div img {
+    position: relative;
+    bottom: 790px;
+}
+
+.product .main-div .right-div {
+    height: 990px;
+    width: 600px;
+    background-color: #d8d5d5;
+
+    position: relative;
+    bottom: 780px;
+    right: 0px
+}
+
+.product .main-div .right-div .right-div-left img {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    height: auto;
+}
+
+.product .main-div .right-div .right-div-left .right-div-left2 img {
+    position: relative;
+    top: 330px;
+}
+
+.product .main-div .right-div .right-div-left .right-div-left3 img {
+    position: relative;
+    top: 400px;
+}
+
+.product .main-div .right-div .right-div-right h1 {
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+
+    color: #858585;
+
+    font-size: 3rem;
+}
+
+.product .main-div .right-div .right-div-right2 h1 {
+    position: relative;
+    bottom: 360px;
+    left: 200px;
+
+    color: #858585;
+
+    font-size: 3rem;
+}
+
+.product .main-div .right-div .right-div-right3 h1 {
+    position: relative;
+    bottom: 290px;
+    left: 200px;
+
+    color: #858585;
+
+    font-size: 3rem;
+}
+
+.product .main-div .right-div .right-div-right p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #818182;
+    text-align: center;
+
+    position: relative;
+    bottom: 430px;
+
+}
+
+.product .main-div .right-div .right-div-right2 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #818182;
+    text-align: center;
+
+    position: relative;
+    bottom: 340px;
+}
+
+.product .main-div .right-div .right-div-right3 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #818182;
+    text-align: center;
+
+    position: relative;
+    bottom: 270px;
+    left: 5px;
+}
+
+.product .main-div .right-div .right-div-right img {
+    position: relative;
+    top: 520px;
+}
+
+.footer img {
+    position: relative;
+    bottom: 790px;
+    right: 100px;
+}
+
+.footer .right-div img {
+    position: relative;
+    left: 750px;
+    bottom: 1400px;
+}
+
+/* animation code goes below */
+
+#explore-now::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #009e5f;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+#explore-now:hover::before,
+#explore-now:focus::before {
+    transform: scaleX(1);
+}
+
+#exolore-now {
+    transition: color 300ms ease-in-out;
+    z-index: -1;
+}
+
+#explore-now:hover,
+#explore-now:focus {
+    color: white;
+
+}
+
+#explore-now2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #009e5f;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+#explore-now2:hover::before,
+#explore-now2:focus::before {
+    transform: scaleX(1);
+}
+
+#exolore-now2 {
+    transition: color 300ms ease-in-out;
+    z-index: -1;
+}
+
+#explore-now2:hover,
+#explore-now2:focus {
+    color: rgb(243, 92, 92);
+}
